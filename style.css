@@ -22,8 +22,27 @@ header {
   margin: 0 auto;
 }
 
+.header-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .logo {
   height: 60px;
+}
+
+.tagline {
+  font-size: 14px;
+  color: #607D8B;
+  margin-top: 5px;
+  max-width: 300px;
 }
 
 nav ul {
@@ -33,7 +52,6 @@ nav ul {
   display: flex;
   gap: 20px;
   align-items: center;
-  justify-content: flex-end;
 }
 
 nav ul li a {
