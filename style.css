@@ -39,10 +39,10 @@ header {
 }
 
 .tagline {
-  font-size: 14px;
+  font-size: 12px;
   color: #607D8B;
   margin-top: 5px;
-  max-width: 300px;
+  white-space: nowrap;
 }
 
 nav ul {
