@@ -1,27 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Leisure Psychology</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header class="header">
-    <div class="logo-container">
-      <img src="logo.png" alt="Leisure Psychology Logo" class="logo"/>
-      <div class="subtitle">An Academic Journal Focused on the Cognitive, Emotional, and Behavioral Aspects of Leisure</div>
-    </div>
-    <nav class="nav">
-      <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Editorial Board</a></li>
-        <li><a href="#">Author Guidelines</a></li>
-        <li><a href="#">Archives</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leisure Psychology</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 40px;
+        background-color: white;
+        border-bottom: 1px solid #eee;
+      }
+
+      .logo-section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 700px;
+      }
+
+      .logo {
+        height: 70px;
+        margin-bottom: 5px;
+      }
+
+      .subtitle {
+        font-size: 14px;
+        color: #2b445c;
+        font-weight: 500;
+        white-space: nowrap;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 20px;
+      }
+
+      .nav-links a {
+        text-decoration: none;
+        color: #0a2c45;
+        font-weight: bold;
+        font-size: 14px;
+      }
+
+      .main-content {
+        padding: 40px;
+        max-width: 800px;
+        margin: auto;
+      }
+
+      h1 {
+        font-size: 32px;
+        color: #1a2a3a;
+      }
+
+      p {
+        font-size: 16px;
+        color: #333;
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo-section">
+        <img src="logo.png" alt="Leisure Psychology Logo" class="logo" />
+        <div class="subtitle">
+          An Academic Journal Focused on the Cognitive, Emotional, and Behavioral Aspects of Leisure
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#home">Home</a>
+        <a href="#editorial">Editorial Board</a>
+        <a href="#guidelines">Author Guidelines</a>
+        <a href="#archives">Archives</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      <section>
+        <h1>Welcome to Leisure Psychology</h1>
+        <p>
+          Leisure Psychology is an international academic journal dedicated to publishing high-quality research on the psychological aspects of leisure, recreation, and well-being.
+        </p>
+      </section>
+    </main>
+  </body>
 </html>
