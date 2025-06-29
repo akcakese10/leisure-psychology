@@ -1,119 +1,48 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-
 body {
-  font-family: 'Inter', sans-serif;
   margin: 0;
-  padding: 0;
-  background: #f5f6fa;
-  color: #2c3e50;
-  line-height: 1.6;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
 }
 
-
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: white;
-  padding: 10px 20px;
-}
-
-
-.container {
-  width: 90%;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.header-layout {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 40px;
+  border-bottom: 1px solid #eee;
+  flex-wrap: wrap;
 }
 
-.logo-area {
+.logo-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: center;
+  max-width: 600px;
 }
 
 .logo {
   height: 60px;
+  margin-bottom: 4px;
 }
 
-
-.tagline {
-  font-size: 12px;
-  color: #607D8B;
+.subtitle {
+  font-size: 14px;
+  color: #2e6574;
   white-space: nowrap;
-  padding-top: 18px;
-  margin-left: 5px;
 }
 
-
-nav ul {
+.nav ul {
+  display: flex;
   list-style: none;
-  padding: 0;
   margin: 0;
-  display: flex;
+  padding: 0;
   gap: 20px;
-  align-items: center;
+  flex-wrap: wrap;
 }
 
-
-nav ul li a {
-  font-size: 14px;
-  font-weight: 600;
-  color: #0d3c58;
+.nav li a {
   text-decoration: none;
-  padding: 0 10px;
-}
-
-
-nav ul li a:hover {
-  color: #007B8A;
-}
-
-main {
-  padding: 60px;
-  margin: 40px auto;
-  background: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-}
-
-main h1 {
-  font-size: 32px;
-  margin-bottom: 20px;
-  color: #34495e;
-}
-
-main h2 {
-  font-size: 24px;
-  margin-top: 30px;
-  color: #2c3e50;
-}
-
-footer {
-  background: #2c3e50;
-  color: #ecf0f1;
-  text-align: center;
-  padding: 20px 0;
-  margin-top: 60px;
+  color: #113d5e;
+  font-weight: bold;
   font-size: 14px;
-}
-
-
-.logo-container {
-  display: flex;
-  align-items: center;
-}
-
-.tagline {
-  font-size: 12px;
-  color: #607D8B;
-  white-space: nowrap;
-  margin-left: 12px;
-  margin-top: 4px;
 }
