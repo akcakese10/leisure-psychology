@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 body {
@@ -39,13 +40,13 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: #1e3d59;  /* net koyu mavi */
+  color: #1e3d59;
   font-weight: 600;
   transition: color 0.3s;
 }
 
 nav ul li a:hover {
-  color: #007B8A;  /* logo ile uyumlu yeşilimsi mavi */
+  color: #007B8A;
 }
 
 main {
